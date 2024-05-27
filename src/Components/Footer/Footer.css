@@ -91,7 +91,38 @@ margin-bottom: 130px;
   /* transform: scale(1.1); */
   font-size: 20px;
 }
+@media (min-width:344px) and (max-width:522px){
+.footer-col{
+   width:100%;  
 
+ } 
+ .needHelpCss{
+   margin-bottom:0px;
+ }
+
+.companyCss{
+   margin-top: 30px;
+   margin-bottom:0px;
+}
+
+.moreInfoCss{
+font-size: 16px;
+margin-top: 30px;
+ margin-bottom:0px;
+}
+
+.socialSitesCss{
+  margin-top:30px;
+  margin-bottom:0px;
+}
+.copyright {
+  font-size: 14px;
+  margin-top: 20px; 
+  display: flex;
+  justify-content: left;
+}
+
+}
 @media (min-width:523px) and (max-width:846px){
   .footer-col{
      width:50%;
